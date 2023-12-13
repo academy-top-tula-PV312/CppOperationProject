@@ -39,4 +39,11 @@ int main()
 
 
     std::cout << std::boolalpha << "You win: " << isWin << "\n";
+
+    float x = 1.0;
+    while (x >= 0)
+    {
+        std::cout << x << "\n";
+        x = x - 0.1;
+    }
 }
